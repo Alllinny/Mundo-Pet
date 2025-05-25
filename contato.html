@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <link rel="stylesheet" href="index.css/estilo.css">
+</head>
+<body>
+    <header><h1>Fale Comigo</h1></header>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+    <main>
+        <section>
+            <form id="form-contato" onsubmit="enviarFormulario(event)">
+                <input type="text" id="nomeContato" placeholder="Nome completo" required><br>
+                <input type="email" id="emailContato" placeholder="Email" required><br>
+                <input type="tel" id="telefoneContato" placeholder="Telefone" required><br>
+                <button type="submit">Enviar</button>
+            </form>
+            <div id="mensagem-confirmacao"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Aline Dev.Todos os direitos reservados.</p>
+    </footer>
+    <script src="index.js/script.js"></script>
+</body>
+</html>
